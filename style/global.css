@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: var(--background);
+  font-family: var(--ff-primary);
+}
+
+header, section, footer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,h2,h3,h4{
+  font-family: var(--ff-primary);
+  font-weight: 900;
+  /* letter-spacing: -2px; */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p{
+  margin-bottom: 8px;
+}
+
+.container{
+  height: 100%;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 40px;
+}
+

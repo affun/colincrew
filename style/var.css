@@ -1,0 +1,23 @@
+:root {
+  --text: #111;
+  --text-primary: #8280ff;
+  --background: #fff;
+  --bg-dark: #f2f2f2;
+  /* --background: #f6f2ed; */
+  /* --primary: #850315; */
+  --primary: #6653ff;
+  --secondary: #111;
+
+  --header-gradiant: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3));
+  /* --header-gradiant: linear-gradient(to top, rgba(33, 29, 62,0.9), rgba(33, 29, 62,0.3)); */
+
+  --ff-text-sub: 'Nanum Gothic Coding', monospace;
+  --ff-primary: 'Inter', sans-serif;
+  /* --ff-primary: 'Noto Serif', serif; */
+  /* --ff-headings: 'Overpass', sans-serif; */
+  /* --ff-headings: 'Inter', sans-serif; */
+
+  /* transitions */
+  --tsn-text-hov: all 0.1s linear;
+  --tsn-btn: all 0.1s linear;
+}
